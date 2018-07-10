@@ -50,7 +50,7 @@ def break_dance
   loop do
     counter = steps += 1
     puts "#{steps}"
-    if steps = 6
+    if steps == 6
       break
   end
 end
