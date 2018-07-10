@@ -18,7 +18,6 @@ end
      puts "right"
    end
    sleep (0.5)
- end
  break
 end
  
