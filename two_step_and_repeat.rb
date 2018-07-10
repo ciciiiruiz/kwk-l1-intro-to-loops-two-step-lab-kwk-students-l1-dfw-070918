@@ -46,8 +46,6 @@ def break_dance
     puts 'hello'
     break
     puts "goodbye"
-  end
-  loop do
     counter = steps += 1
     puts "#{steps}"
     if steps == 6
