@@ -12,7 +12,7 @@ end
  loop do
    puts "steps"
    steps += 1
-   if (steps/2 == 0)
+   if (steps%2 == 0)
      puts "left"
    else
      puts "right"
