@@ -16,7 +16,7 @@ end
      puts "left"
    else
      puts "right"
-   end
+  end
    sleep (0.5)
  break
 end
