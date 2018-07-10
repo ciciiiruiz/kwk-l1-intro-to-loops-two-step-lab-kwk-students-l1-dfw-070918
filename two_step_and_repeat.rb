@@ -10,7 +10,17 @@ def first_steps
 end
  steps = 0
  loop do
-   
+   puts "steps"
+   steps += 1
+   if (steps/2 == 0)
+     puts "left"
+   else
+     puts "right"
+   end
+   sleep (0.5)
+ end
+ end
+ 
 
 def a_few_more_steps
   # Write a loop that outputs the first two sets of steps in the Two-Step
